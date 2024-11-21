@@ -1,0 +1,136 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: linear-gradient(to right, black, gray, whitesmoke);
+}
+
+nav{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    height: 170px;
+}
+
+nav img{
+    width: 150px;
+    margin: 50px;
+    height: 120px;
+}
+
+nav form input{
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    left: 300px;
+    top: 80px;
+    font-size: 1rem;
+}
+
+nav form input:focus{
+    outline: none;
+    border: 2px solid gray;
+    width: 600px;
+    transition: ease 3s;
+}
+
+nav svg{
+    position: relative;
+    left: 680px;
+    bottom: 108px;
+    z-index: 1;
+    fill: black;
+}
+
+.cart{
+    display: flex;
+    border: 1px solid rgb(240, 238, 238);
+    text-align: center;
+    width: 400px;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px; 
+    margin: 20px auto; 
+    text-align: center; 
+}
+
+.cart img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+
+#show-list{
+    width: 150px;
+    height: 45px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 80px auto; 
+    text-align: center; 
+    margin-left: 45%;
+    cursor: pointer;
+}
+
+#show:hover{
+    color: black;
+    background-color: white;
+}
+
+.shoe-list, .cart-list{
+    border: 2px solid black;
+    width: 800px;
+    padding: 20px;
+    margin: 30px;
+    margin-left: 20%;
+    border-radius: 10px;
+}
+
+
+.shoe-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .shoe-item img {
+    margin-right: 10px;
+    border-radius: 20px;
+    height: 70px;
+    width: 70px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  button {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
